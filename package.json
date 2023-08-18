@@ -1,0 +1,20 @@
+{
+  "name": "connect",
+  "version": "1.0.0",
+  "description": "A end to end chatting app.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server/app.js"
+  },
+  "author": "Aman Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "socket.io": "^4.7.2"
+  }
+}
